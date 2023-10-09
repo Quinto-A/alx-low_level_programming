@@ -1,9 +1,9 @@
 #include <stdio.h>
-#include <stdio.h>
+#include <unistd.h>
 
  /**
   * main - entry point
-  * Desc: prints  digits base 10
+  * Description:  prints  digits base 10
   * Return: always 0
   */
 
