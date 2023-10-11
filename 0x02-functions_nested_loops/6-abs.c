@@ -3,7 +3,7 @@
 
 /**
  * _abs - Computers the absolute
- * @c: The number computed
+ * @c: The number produced
  * Return: Absolute value
  */
 int _abs(int c)
