@@ -42,5 +42,12 @@ int main(void)
     add_node(&head, "William");
     add_node(&head, "Zee");
     print_list(head);
+    while (head != NULL)
+    {
+        list_t *temp = head;
+        head = head->next;
+        free(temp->str);
+        free(temp);
+    }
     return (0);
 }
